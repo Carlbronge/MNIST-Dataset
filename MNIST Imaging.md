@@ -56,18 +56,23 @@ Y_test = test_set.targets.numpy()
 X = X[:,None,:,:]/255
 X_test = X_test[:,None,:,:]/255
 ```
+Image Selection
 ```
 x = X[4,0,:,:]
 ```
+Plot of Image
 ```
 plt.imshow(x)
 ```
+Plot of Image Grey
 ```
 plot(x)
 ```
+Plot of Selected Image
 ```
 plot(X[68,0,:,:])
 ```
+Plot of Montage
 ```
 montage_plot(X[130:166,0,:,:])
 ```
