@@ -1,4 +1,4 @@
-# Instal
+# Install
 ```
 %%capture
 import numpy as np
