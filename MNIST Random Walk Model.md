@@ -85,7 +85,7 @@ X = X.T
 X_test = X_test.T
 ```
 # Random Walk Model
-Training the Model
+Training the Model-67% Accuracy
 ```
 X = GPU_data(X)
 Y = GPU_data(Y)
@@ -131,5 +131,5 @@ score = ((y == Y).sum(1)/len(Y))
 s = torch.argsort(score,descending=True)
 score[s]
 ```
-New Improved Model
+New Improved Model-00% Accuracy
 ```
