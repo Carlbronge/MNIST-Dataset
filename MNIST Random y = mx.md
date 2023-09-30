@@ -29,8 +29,7 @@ def plot(x):
     plt.show()
 ```
 # Idenify
-```
-```
+
 Defining Shape
 ```
 X = X.reshape(X.shape[0],784)
