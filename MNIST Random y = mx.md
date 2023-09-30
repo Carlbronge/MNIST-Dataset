@@ -86,7 +86,7 @@ torch.sum((y == Y[0:64]))
 ```
 torch.sum((y == Y[0:64]))/64
 ```
-Making the Model-34% Accuracy
+Making the Model-43% Accuracy
 ```
 batch_size = 64
 
