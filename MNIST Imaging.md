@@ -1,6 +1,4 @@
-```
-#Install
-```
+# Install
 ```
 %%capture
 import numpy as np
@@ -48,7 +46,7 @@ test_set = datasets.MNIST('./data', train=False, download=True)
 # train_set = datasets.FashionMNIST('./data', train=True, download=True)
 # test_set = datasets.FashionMNIST('./data', train=False, download=True)
 ```
-Usage
+# Usage
 ```
 X = train_set.data.numpy()
 X_test = test_set.data.numpy()
